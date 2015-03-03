@@ -1,0 +1,48 @@
+#header {
+	background-color:rgb(6,128,67);
+}
+#header .logo {
+	background-color:#0F0;
+}
+
+#sidebar{
+	background-color:rgb(107,194,53);
+}
+#sidebar #main-nav LI A.nav-top-item{
+	font-weight:bolder;
+	FONT-SIZE: 20px;
+	COLOR: rgb(255,255,255);
+}
+#sidebar #main-nav LI A.nav-top-item:hover{
+	font-weight:bolder;
+	COLOR: rgb(0,0,0);
+}
+#sidebar #main-nav UL LI a {
+	FONT-SIZE: 15px; 
+	font-weight:normal;
+	COLOR: rgb(255,255,255);
+}
+#sidebar #main-nav UL LI A:hover {
+	font-weight:normal;
+	COLOR: rgb(0,0,0);
+}
+#content{
+	background-color:rgb(174,221,129);
+}
+/**table**/
+#text table tr td.a{
+	background-color:#A0A0A4;
+	font-size:30px;
+}
+#text table tr td.b{
+	background-color:#FFF;
+}
+#text table tr td.c{
+	background-color:#A0A0A4;
+}
+#text table tr.a{
+	background-color:#A0A0A4;
+}
+#text table tr.b{
+	background-color:#ffffff;
+}

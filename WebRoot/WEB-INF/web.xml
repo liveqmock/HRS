@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  	
+  	<servlet>
+  		<servlet-name>Login</servlet-name>
+  		<servlet-class>com.neusoft.pm.servlet.LoginServlet</servlet-class>
+  	</servlet>
+  	<!-- empIn begin -->
+	<servlet>
+ 	 	<servlet-name>AddEmployee</servlet-name>
+		<servlet-class>com.neusoft.pm.servlet.empIn.AddEmployeeServlet</servlet-class>
+  	</servlet>
+  	<servlet>
+ 	 	<servlet-name>SelectLib</servlet-name>
+		<servlet-class>com.neusoft.pm.servlet.empIn.SelectLibServlet</servlet-class>
+  	</servlet>
+  	<servlet>
+  		<servlet-name>AddEmployeeFromLib</servlet-name>
+  		<servlet-class>com.neusoft.pm.servlet.empIn.AddEmployeeFromLibServlet</servlet-class>
+  	</servlet>
+  	<servlet>
+  		<servlet-name>AddEmployeeFromSociety</servlet-name>
+  		<servlet-class>com.neusoft.pm.servlet.empIn.AddEmployeeFromSocietyServlet</servlet-class>
+  	</servlet>
+  	<!-- empIn end -->
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/Login</url-pattern> 	
+  	</servlet-mapping>
+  	<!-- empIn begin -->
+  	<servlet-mapping>
+		<servlet-name>SelectLib</servlet-name>
+		<url-pattern>/empIn/SelectLib</url-pattern> 	
+  	</servlet-mapping>
+  	<servlet-mapping>
+		<servlet-name>AddEmployee</servlet-name>
+		<url-pattern>/empIn/AddEmployee</url-pattern> 	
+  	</servlet-mapping>
+  	<servlet-mapping>
+		<servlet-name>AddEmployeeFromLib</servlet-name>
+		<url-pattern>/empIn/AddEmployeeFromLib</url-pattern> 	
+  	</servlet-mapping>
+  	<servlet-mapping>
+		<servlet-name>AddEmployeeFromSociety</servlet-name>
+		<url-pattern>/empIn/AddEmployeeFromSociety</url-pattern> 	
+  	</servlet-mapping>
+  	<!-- empIn end -->
+  	
+  
+  
+</web-app>

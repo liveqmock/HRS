@@ -1,0 +1,223 @@
+body {
+	margin: 0px;
+}
+/* Header */
+#header {
+	height: 100px;
+	width: 100%;
+	position: relative;
+}
+
+#header .logo {
+	position: relative;
+	top: 20px;
+	bottom: 20px;
+	height: 60px;
+	width: 15%;
+}
+
+a:link,visited,hover,active {
+	text-decoration: none;
+}
+/* Sidebar */
+#sidebar {
+	float: left;
+	width: 15%;
+	position: relative;
+	HEIGHT: 100%;
+	FONT-SIZE: 13px;
+	MARGIN: 0px 0px 0px 0px;
+	TEXT-ALIGN: right;
+	LINE-HEIGHT: 1.5em;
+}
+
+#sidebar #main-nav {
+	text-align: center;
+	PADDING-BOTTOM: 0px;
+	MARGIN: 40px 0px 0px 0px;
+	width: 100%;
+	PADDING-LEFT: 0px;
+	PADDING-RIGHT: 0px;
+	PADDING-TOP: 0px
+}
+
+#sidebar #main-nav LI {
+	TEXT-ALIGN: right;
+	LIST-STYLE-TYPE: none;
+	PADDING-BOTTOM: 10px;
+	PADDING-LEFT: 15px;
+	PADDING-TOP: 10px;
+}
+
+#sidebar #main-nav LI A.nav-top-item {
+	PADDING-BOTTOM: 10px;
+	PADDING-LEFT: 15px;
+	PADDING-RIGHT: 15px;
+	DISPLAY: block;
+	CURSOR: pointer;
+	TEXT-DECORATION: none;
+	PADDING-TOP: 10px;
+	background-image: none;
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+#sidebar #main-nav UL {
+	PADDING-BOTTOM: 0px;
+	MARGIN: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-RIGHT: 0px;
+	FONT-SIZE: 12px;
+	PADDING-TOP: 0px
+}
+
+#sidebar #main-nav UL LI {
+	TEXT-ALIGN: right;
+	PADDING-BOTTOM: 0px;
+	LIST-STYLE-TYPE: none;
+	MARGIN: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-RIGHT: 0px;
+	PADDING-TOP: 0px
+}
+
+#sidebar #main-nav UL LI A {
+	PADDING-BOTTOM: 8px;
+	LINE-HEIGHT: 1.2em;
+	PADDING-LEFT: 15px;
+	PADDING-RIGHT: 15px;
+	DISPLAY: block;
+	PADDING-TOP: 8px
+}
+
+
+/* Content */
+#content {
+	float: left;
+	position: relative;
+	width: 85%;
+	height: 100%;
+}
+
+/*Login*/
+.login-form-wrap {
+	background: #5170ad;
+	background: -moz-radial-gradient(center, ellipse cover, #5170ad 0%, #355493 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #5170ad), color-stop(100%, #355493));
+	background: -webkit-radial-gradient(center, ellipse cover, #5170ad 0%, #355493 100%);
+	background: -o-radial-gradient(center, ellipse cover, #5170ad 0%, #355493 100%);
+	background: -ms-radial-gradient(center, ellipse cover, #5170ad 0%, #355493 100%);
+	background: radial-gradient(ellipse at center, #5170ad 0%, #355493 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5170ad', endColorstr='#355493',GradientType=1 );
+	border: 1px solid #2d416d;
+	box-shadow: 0 1px #5670a4 inset, 0 0 10px 5px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	position: relative;
+	width: 360px;
+	height: 380px;
+	margin: 10% auto 20px auto;
+	padding: 50px 30px 0 30px;
+	text-align: center;
+}
+
+.login-form-wrap:before {
+	display: block;
+	content: '';
+	width: 58px;
+	height: 19px;
+	top: 10px;
+	left: 10px;
+	position: absolute;
+}
+
+.login-form-wrap > h1 {
+	margin: 0 0 50px 0;
+	padding: 0;
+	font-size: 26px;
+	color: #fff;
+}
+
+.login-form input {
+	margin: 0px;
+}
+
+.login-form input[type="text"], .login-form input[type="password"] {
+	font-size: 18px;
+	width: 100%;
+	border: 1px solid #314d89;
+	outline: none;
+	padding: 12px 20px;
+	color: #525252;
+	font-weight: 400;
+	font-family: 'Lato', sans-serif;
+	cursor: pointer;
+}
+
+.login-form input[type="text"] {
+	border-bottom: none;
+	border-radius: 4px 4px 0 0;
+	padding-bottom: 13px;
+	box-shadow: 0 -1px 0 #e0e0e0 inset, 0 1px 2px rgba(0, 0, 0, 0.23) inset;
+}
+
+.login-form input[type="password"] {
+	border-top: none;
+	border-radius: 0 0 4px 4px;
+	box-shadow: 0 -1px 0 #e0e0e0 inset, 0 1px 2px rgba(0, 0, 0, 0.23) inset;
+}
+
+.login-form input[type="submit"] {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	background: #e0e0e0;
+	background: -moz-linear-gradient(top, #e0e0e0 0%, #cecece 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e0e0e0), color-stop(100%, #cecece));
+	background: -webkit-linear-gradient(top, #e0e0e0 0%, #cecece 100%);
+	background: -o-linear-gradient(top, #e0e0e0 0%, #cecece 100%);
+	background: -ms-linear-gradient(top, #e0e0e0 0%, #cecece 100%);
+	background: linear-gradient(to bottom, #e0e0e0 0%, #cecece 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e0e0e0', endColorstr='#cecece',GradientType=0 );
+	display: block;
+	margin: 20px auto 0 auto;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 8px;
+	font-size: 18px;
+	color: #636363;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.45);
+	font-weight: 700;
+	box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.17), 0 1px 0 rgba(255, 255, 255, 0.36) inset;
+}
+
+.login-form input[type="submit"]:hover {
+	background: #DDD;
+}
+
+.login-form input[type="submit"]:active {
+	padding-top: 9px;
+	padding-bottom: 7px;
+	background: #C9C9C9;
+}
+/**table**/
+#text {
+	text-align: center;
+	margin-top: 5%;
+}
+
+#text table {
+	width: 90%;
+	border: 0;
+	text-align: center;
+}
+
+#text table tr td.b {
+	width: 50%;
+	border: 0;
+	text-align: center;
+}
+
+#text table.data(
+	border-spacing:0px;
+	border:1px;
+}

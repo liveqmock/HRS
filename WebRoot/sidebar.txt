@@ -1,0 +1,52 @@
+﻿<%@ page contentType="text/html;charset=UTF-8" %>
+<div id="sidebar">
+<UL id="main-nav">
+ 	<LI>
+    	<A class="nav-top-item " href="<%=basePath%>depmManager/department_index.jsp">部门管理</A>
+        <UL>
+            <LI><a href="<%=basePath%>depmManager/department_add.jsp">新增部门</A></LI>
+            <LI><a href="<%=basePath%>depmManager/department_index.jsp">部门查询</A></LI>
+            <LI><a href="<%=basePath%>depmManager/department_inf.jsp">部门员工</A></LI>
+        </UL>
+	</LI>    
+  	<LI>
+    	<A class="nav-top-item "  href="<%=basePath%>psnManger/position_index.jsp">岗位管理</A>
+        <UL>
+            <LI><a href="<%=basePath%>psnManager/position_add.jsp">新增岗位</A></LI>
+            <LI><a href="<%=basePath%>psnManager/position_index.jsp">岗位查询</A></LI>
+            <LI><a href="<%=basePath%>psnManager/position_inf.jsp">岗位员工</A></LI>
+        </UL>
+	</LI>        
+ 	<LI>
+    	<A class="nav-top-item " href="<%=basePath%>empIn/fromSociety.jsp">员工入职管理</A>
+        <UL>
+            <LI><a href="<%=basePath%>empIn/AddEmployeeFromSociety">直接入职</A></LI>
+            <LI><a href="<%=basePath%>empIn/fromLib.jsp">人才库入职</A></LI>
+        </UL>
+	</LI>  
+ 	<LI>
+    	<A class="nav-top-item " href="<%=basePath%>psnChange/emppsn_update.jsp">岗位调动管理</A>
+        <UL>
+            <LI><a href="<%=basePath%>psnChange/emppsn_select.jsp">岗位查询</A></LI>
+            <LI><a href="<%=basePath%>psnChange/emppsn_update.jsp">岗位调动</A></LI>
+            <LI><a href="<%=basePath%>psnChange/emppsn_history.jsp">调动记录</A></LI>
+        </UL>
+  	</LI>
+ 	<LI>
+    	<A class="nav-top-item " href="<%=basePath%>depmChange/empdep_update.jsp">部门调动管理</A>
+        <UL>
+            <LI><A href="<%=basePath%>depmChange/empdep_select.jsp">部门查询</A>
+          <LI><A href="<%=basePath%>depmChange/empdep_update.jsp">部门调动</A>
+          <LI><A href="<%=basePath%>depmChange/empdep_history.jsp">调动记录</A>
+      </UL>
+  	</LI>
+    <LI>
+    	<A class="nav-top-item " href="<%=basePath%>empOut/emp_out.jsp">员工离职管理</A>
+        <UL>
+            <LI><A href="<%=basePath%>empOut/emp_select.jsp">员工查询</A>
+          <LI><A href="<%=basePath%>empOut/emp_out.jsp">员工离职</A>
+          <LI><A href="<%=basePath%>empOut/emp_outHistory.jsp">离职记录</A>
+      </UL>
+  	</LI>
+</UL>
+</div>
